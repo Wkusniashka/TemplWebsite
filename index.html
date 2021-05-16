@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css.css" rel="stylesheet">
+    <link href="640px_css.css" rel="stylesheet" media="only screen and (max-width: 640px)">
+    <link href="360_css.css" rel="stylesheet" media="only screen and (max-width: 360px)">
+    <script>
+        function hide() {
+            document.getElementById('menu').style.display = 'none';
+        }
+        function show() {
+            document.getElementById('menu').style.display = 'flex';
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <a href="#">PSD WEBSITES</a>
+            <a href="#">UI KITS</a>
+            <a href="#">PREMIUM PSD FILES</a>
+            <a href="#">ABOUT</a>
+            <a href="#">BLOG</a>
+            <div class="mobilenav">
+                <p>Navigation</p>
+                <img src="img/menu%20copy.png" onclick="show()">
+                <div class="mobileMenu" id="menu" onmouseout="hide()" onmouseover="show()">
+                    <a href="#">PSD WEBSITES</a>
+                    <a href="#">UI KITS</a>
+                    <a href="#">PREMIUM PSD FILES</a>
+                    <a href="#">ABOUT</a>
+                    <a href="#">BLOG</a>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <h1>Awesome Free PSD templates & Resources</h1>
+            <a href="#">www.BlazRobar.com
+                <img src="img/arrow.png" alt="arrow"/>
+            </a>
+        </header>
+        <section>
+            <div>
+                <p>I'm like the Robin Hood of PSD files.</p>
+            </div>
+            <div>
+                <img src="img/arrow.png" alt="arrow"/>
+            </div>
+            <div>
+                <img src="img/arrow.png" alt="arrow"/>
+            </div>
+            <img src="img/img-1.png">
+            <img src="img/img-2.png">
+        </section>
+        <article>
+            <h3>BlazRobar.com</h3>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula ipsum non leo tristique eget facilisis lacus commodo. Curabitur vitae justo lorem, non ornare nibh. Pellentesque pretium, tellus ac ultrices faucibus, nibh mauris dapibus lorem, vitae viverra nisl elit sit amet libero. Nam eu blandit risus. </p>
+                <p>Phasellus imperdiet mattis nulla. Integer gravida imperdiet congue. Proin vitae pretium augue. Donec est sem, mattis et blandit ac, blandit at arcu. Donec tempus tincidunt suscipit. Suspendisse eu vulputate lacus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula ipsum non leo tristique eget facilisis lacus commodo. Curabitur vitae justo lorem, non ornare nibh. Pellentesque pretium, tellus ac ultrices faucibus, nibh mauris dapibus lorem, vitae viverra nisl elit sit amet libero. Nam eu blandit risus. </p>
+                <p>Phasellus imperdiet mattis nulla. Integer gravida imperdiet congue. Proin vitae pretium augue. Donec est sem, mattis et blandit ac, blandit at arcu. Donec tempus tincidunt suscipit. Suspendisse eu vulputate lacus.</p>
+            </div>
+        </article>
+    </div>
+
+</body>
+</html>

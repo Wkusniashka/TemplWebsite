@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobilenav {
+    display: none;
+}
+
+.header nav {
+    background-color: #373c3f;
+    height: 96px;
+    display: flex;
+    align-items: center;
+}
+
+.header nav a {
+    color: white;
+    margin: 2.3%;
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-size: 0.94rem;
+}
+
+header {
+    height: 575px;
+    background: linear-gradient(135deg, #19b4c6, #078aa4);
+}
+
+header h1 {
+    font-size: 3.8rem;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: normal;
+    margin: 19.7% 21.3% 2% 8.1%;
+}
+
+header a {
+    text-decoration: none;
+    color: #a7d7df;
+    font-size: 2.3rem;
+    font-family: "Montserrat Light", sans-serif;
+    margin: 0 21.3% 17.2% 8.1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+section div:nth-child(1) {
+    width: 77.6%;
+    background-color: #27212c;
+    box-sizing: border-box;
+}
+
+section div:nth-child(1) p {
+    color: #8f809d;
+    font-size: 2rem;
+    padding: 11.3% 8.7% 8.5% 8.7%;
+    font-family: Montserrat;
+}
+
+section div:nth-child(2) {
+    width: 22.4%;
+    background-color: #bc3183;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section div:nth-child(3) {
+    width: 33.3%;
+    background-color: #5b0fa1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color: #ebebeb;
+    box-sizing: border-box;
+    padding: 5.3% 8.3% 3.8% 8.3%;
+}
+
+article h3 {
+    color: #088ca5;
+    font-size: 1.875rem;
+    font-family: Montserrat;
+    font-weight: normal;
+    padding-bottom: 3.8%;
+    margin: 0;
+}
+
+article div {
+    columns: 380px 2;
+    column-gap: 70px;
+    font-family: Montserrat;
+    line-height: 1.56rem;
+}
+
+article div p {
+    margin: 0 0 5% 0;
+    font-size: 0.875rem;
+    color: #515151;
+}

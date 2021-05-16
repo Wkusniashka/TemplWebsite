@@ -1,0 +1,43 @@
+nav > a {
+    display: none;
+}
+
+.header nav {
+    height: 11.8%;
+}
+
+.mobilenav {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+
+}
+
+.mobilenav p {
+    color: white;
+    font-size: 1.375rem;
+    font-family: Montserrat;
+    padding: 4.7% 0 3.9% 6.25%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.mobilenav img {
+    cursor: pointer;
+}
+
+.mobileMenu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    top: 76px;
+    background-color: #373c3f;
+    display: none;
+}
+
+section div:nth-child(3), section img {
+    width: 100%;
+}
